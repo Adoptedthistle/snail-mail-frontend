@@ -19,13 +19,19 @@ function App() {
       <div>
         <ul id={css.navbar}>
           <li className={css.nav}>
-            <Link to="/address">ADDRESS BOOK</Link>
+            <Link to="/address" class={css.link}>
+              ADDRESS BOOK
+            </Link>
           </li>
           <li className={css.nav}>
-            <Link to="/contact">ADD CONTACT</Link>
+            <Link to="/contact" class={css.link}>
+              ADD CONTACT
+            </Link>
           </li>
           <li className={css.nav}>
-            <Link to="/status">STATUS</Link>
+            <Link to="/status" class={css.link}>
+              STATUS
+            </Link>
           </li>
         </ul>
 

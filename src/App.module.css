@@ -13,6 +13,7 @@ li {
 
 #navbar {
   margin: none;
+  padding: 0;
 }
 
 #snailText {
@@ -32,6 +33,22 @@ li {
   text-align: center;
 }
 
-Link {
+.link {
   text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: #ffb655;
+  border-radius: 10px;
+  padding: 1vw;
+  position: relative;
+  left: 7vw;
+  top: 20vw;
+}
+
+form {
+  position: relative;
+  left: 7vw;
+  top: 10vw;
 }

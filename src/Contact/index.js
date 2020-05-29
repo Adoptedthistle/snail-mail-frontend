@@ -10,6 +10,13 @@ const Contact = () => {
         below to keep a log of all of the people in your circle. All you need to
         do then is get sending!
       </h3>
+      <form>
+        <input placeholder="Name" name="Name" />
+        <input placeholder="Address" name="Address" />
+        <input placeholder="Postcode" name="Postcode" />
+        <input placeholder="Notes" name="Notes" />
+      </form>
+      <button>Submit</button>
     </div>
   );
 };
